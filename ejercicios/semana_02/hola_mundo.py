@@ -1,4 +1,4 @@
-class NombreClase:
+class HolaMundo:
 
     def __init__(self):
         print("Constructor")
@@ -6,6 +6,5 @@ class NombreClase:
     def metodoUno(self):
         print("Método Uno")
 
-nombre_objeto = NombreClase()
+nombre_objeto = HolaMundo()
 nombre_objeto.metodoUno()
-          
